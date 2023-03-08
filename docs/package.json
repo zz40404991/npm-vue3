@@ -1,0 +1,14 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "description for my-custom-vue3-package",
+  "scripts": {
+    "docs:build": "vitepress build docs",
+    "docs:dev": "vitepress dev docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "1.0.0-alpha.49",
+    "vitepress-plugin-sandpack": "latest"
+  }
+}
